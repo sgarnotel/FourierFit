@@ -4,8 +4,8 @@
 Require Qt5.5 or later<br/>
 
 <code>
-mkdir $BUILD_DIR
-cd $BUILD_DIR
-qmake $SRC_DIR
+mkdir $BUILD_DIR<br/>
+cd $BUILD_DIR<br/>
+qmake $SRC_DIR<br/>
 make
 </code>
