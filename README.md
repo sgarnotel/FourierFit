@@ -2,17 +2,14 @@
 
 ## Presentation
 
-FourierFit provide an open source solution to calculate the fit of a curve using Fourier model and export results for FreeFem++ or Feel++ usage
-[http://www.freefem.org/](http://www.freefem.org/)
-[http://www.feelpp.org/](http://www.feelpp.org/)
+FourierFit provide an open source solution to calculate the fit of a curve using Fourier model and export results for [FreeFem++](http://www.freefem.org/) or [Feel++](http://www.feelpp.org/) usage
 
 This software is licensed under GNU GPL version 3
 
 Thank to :
-* Emanuel Eichhammer for the QCustomPlot widget
-[http://www.qcustomplot.com/](http://www.qcustomplot.com/)
-* Everaldo Coelho for the Crystal Clear icon set
-[https://commons.wikimedia.org/wiki/Crystal_Clear](https://commons.wikimedia.org/wiki/Crystal_Clear)
+* Emanuel Eichhammer for the [QCustomPlot](http://www.qcustomplot.com/) widget
+* Everaldo Coelho for the [Crystal Clear](https://commons.wikimedia.org/wiki/Crystal_Clear) icon set
+
 
 ## Compilation
 
@@ -25,7 +22,9 @@ Use the shell script to build the project after defined `$BUILD_DIR` and `$QMAKE
 ## +
 
 Author: Simon Garnotel
+
 Year: 2016
+
 Version: 1.0
 
 
