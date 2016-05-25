@@ -14,8 +14,9 @@ Thank to :
 ## Compilation
 
 Require Qt5.5 or later
-Use the shell script to build the project after defined `$BUILD_DIR` and `$QMAKE_DIR`
+Use the shell script int the source directory to build the project after defined `$BUILD_DIR` and `$QMAKE_DIR`
 
+	chmod +x ./build.sh
 	./build.sh
 
 
