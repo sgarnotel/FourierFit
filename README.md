@@ -9,9 +9,9 @@ FourierFit provide an open source solution to calculate the fit of a curve using
 This software is licensed under GNU GPL version 3
 
 Thank to :
-*Emanuel Eichhammer for the QCustomPlot widget
+* Emanuel Eichhammer for the QCustomPlot widget
 [http://www.qcustomplot.com/](http://www.qcustomplot.com/)
-*Everaldo Coelho for the Crystal Clear icon set
+* Everaldo Coelho for the Crystal Clear icon set
 [https://commons.wikimedia.org/wiki/Crystal_Clear](https://commons.wikimedia.org/wiki/Crystal_Clear)
 
 ## Compilation
