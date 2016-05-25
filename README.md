@@ -1,5 +1,6 @@
 # FourierFit
 
+
 ## Presentation
 
 FourierFit provide an open source solution to calculate the fit of a curve using Fourier model and export results for [FreeFem++](http://www.freefem.org/) or [Feel++](http://www.feelpp.org/) usage
@@ -14,7 +15,8 @@ Thank to :
 ## Compilation
 
 Require Qt5.5 or later
-Use the shell script int the source directory to build the project after defined `$BUILD_DIR` and `$QMAKE_DIR`
+
+Use the shell script in the source directory to build the project after defined `$BUILD_DIR` and `$QMAKE_DIR`
 
 	chmod +x ./build.sh
 	./build.sh
