@@ -45,6 +45,7 @@ private:
     void DoPlotSignal();
     void DoPlotFourierFit();
     void DoFillInformations(const int Order);
+    void DoClear();
 
     //Widget
     QWidget *WidgetCentral;
