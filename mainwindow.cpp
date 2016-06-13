@@ -397,6 +397,23 @@ void MainWindow::DoFillInformations(const int Order){
     TextEditInformations->setText(Text);
 }
 
+void MainWindow::DoClear(){
+#if DEBUG
+    qInfo() << "Info: " << Q_FUNC_INFO;
+#endif
+
+    //ListWidget
+    ListWidgetFileDisplay->clear();
+
+    //CustomPlot
+    CustomPlot->graph(0)->clearData();
+    CustomPlot->graph(1)->clearData();
+    CustomPlot->replot();
+
+    //TextEdit
+    TextEditInformations->clear();
+}
+
 //Constructor
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent){
 #if DEBUG
@@ -417,7 +434,10 @@ void MainWindow::DoFileDirectory(){
 
     QString FileName = QFileDialog::getOpenFileName(this, "Select input file", StringCurrentDirectory);
 
-    if (!FileName.isEmpty()) LineEditFileIn->setText(FileName);
+    if (!FileName.isEmpty()){
+        LineEditFileIn->setText(FileName);
+        DoClear();
+    }
 }
 
 void MainWindow::DoReadFile(){
